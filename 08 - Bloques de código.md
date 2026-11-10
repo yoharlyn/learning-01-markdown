@@ -1,6 +1,8 @@
-Código inline: `const x = 42;`
+Markdown permite representar fragmentos de código dentro de una línea o en bloques independientes.
 
-Bloque de código:
+Los backticks simples muestran código dentro de una oración, como en `const x = 42;`.
+
+Tres backticks crean un bloque de código. Después de los backticks de apertura se puede especificar el lenguaje para que un renderizador compatible aplique el resaltado de sintaxis correspondiente:
 
 ```js
 function saludo(nombre) {
@@ -10,6 +12,15 @@ function saludo(nombre) {
 console.log(saludo('mundo'));
 ```
 
+```python
+def saludo(nombre):
+    return f"Hola, {nombre}!"
+
+print(saludo("mundo"))
+```
+
+Tres virgulillas constituyen una forma alternativa de crear el mismo bloque:
+
 ~~~js
 function saludo(nombre) {
   return `Hola, ${nombre}!`;
@@ -17,22 +28,3 @@ function saludo(nombre) {
 
 console.log(saludo('mundo'));
 ~~~
-
-```py
-genre_columns = [col for col in df_valid_movies.columns if col.startswith("genre_")]
-
-popularity_by_genre = {}
-
-for genre_col in genre_columns:
-    genre_name = genre_col.replace("genre_", "")
-
-    popularity_by_genre[genre_name] = df_valid_movies.loc[
-        df_valid_movies[genre_col] == 1,
-        "popularity"
-    ].mean()
-
-popularity_by_genre = (
-    pd.Series(popularity_by_genre)
-    .sort_values(ascending=True)
-)
-```
