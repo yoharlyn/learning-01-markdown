@@ -10,6 +10,14 @@ function saludo(nombre) {
 console.log(saludo('mundo'));
 ```
 
+~~~js
+function saludo(nombre) {
+  return `Hola, ${nombre}!`;
+}
+
+console.log(saludo('mundo'));
+~~~
+
 ```py
 genre_columns = [col for col in df_valid_movies.columns if col.startswith("genre_")]
 

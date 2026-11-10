@@ -14,6 +14,12 @@ ___Negrita y cursiva___ con triple guión bajo
 
 ~~Tachado~~ con doble virgulilla
 
-~~~Título con recuadro~~~ con triple virgulilla
+~~~
+Texto dentro de recuadro con triple virgulilla
+~~~ 
 
 `código inline` con backticks
+
+Markdown[^1] es un lenguaje de marcado ligero para dar formato[^2] a textos.
+[^1]: Texto nota 1
+[^2]: Texto nota 2
