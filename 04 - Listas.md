@@ -1,3 +1,8 @@
+* item 1
+- item 2
++ item 3
+
+
 Lista desordenada:
 - Primer elemento
 - Segundo elemento
