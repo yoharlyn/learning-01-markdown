@@ -1,17 +1,17 @@
-El texto visible se escribe entre corchetes y la dirección entre paréntesis:
+The visible text is written inside brackets, and the address is written inside parentheses:
 
-[Visita Google](https://google.com)
+[Visit Google](https://google.com)
 
-También se puede agregar un título opcional entre comillas. Este aparece al mantener el cursor sobre el enlace:
+You can also add an optional title inside quotation marks. It appears when you move the cursor over the link:
 
-[Link con título](https://google.com "Ir a Google")
+[Link with a title](https://google.com "Go to Google")
 
-Una URL rodeada por `<` y `>` se convierte en enlace mediante sintaxis ampliamente compatible:
+A URL surrounded by `<` and `>` becomes a link using widely supported syntax:
 
 <https://google.com>
 
-Algunos renderizadores también convierten automáticamente una URL escrita directamente:
+Some renderers also turn a plain URL into a link automatically:
 
 https://google.com
 
-> **Compatibilidad:** las URL escritas directamente son una extensión de GFM y pueden no convertirse en enlaces en todos los renderizadores.
+> **Compatibility:** Plain URLs are a GFM extension and may not become links in every renderer.
