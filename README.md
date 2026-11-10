@@ -1,36 +1,36 @@
-# Aprendiendo Markdown
+# Learning Markdown
 
-Markdown es un lenguaje de marcado ligero que permite dar formato a un texto mediante caracteres sencillos. Se utiliza con frecuencia en documentación, archivos `README`, foros y plataformas como GitHub.
+Markdown is a lightweight markup language that uses simple characters to format text. It is often used in documentation, `README` files, forums, and platforms such as GitHub.
 
-## Objetivo
+## Goal
 
-Este repositorio reúne ejemplos breves de la sintaxis de este lenguaje. Cada capítulo explica qué hace la sintaxis y muestra su resultado al ser interpretada por un renderizador de Markdown.
+This repository contains short examples of Markdown syntax. Each chapter explains what the syntax does and shows the result produced by a Markdown renderer.
 
-## Contenido
+## Contents
 
-1. [Encabezados](<01 - Encabezados.md>)
-2. [Párrafos y saltos de línea](<02 - Párrafos.md>)
-3. [Formato de texto](<03 - Formato de texto.md>)
-4. [Listas](<04 - Listas.md>)
-5. [Enlaces](<05 - Links.md>)
-6. [Imágenes](<06 - Imágenes.md>)
-7. [Citas](<07 - Citas.md>)
-8. [Código](<08 - Bloques de código.md>)
-9. [Tablas](<09 - Tablas.md>)
-10. [Líneas horizontales](<10 - Líneas horizontales.md>)
-11. [Texto con escape](<11 - Texto con escape.md>)
+1. [Headings](<01 - Headings.md>)
+2. [Paragraphs and line breaks](<02 - Paragraphs.md>)
+3. [Text formatting](<03 - Text formatting.md>)
+4. [Lists](<04 - Lists.md>)
+5. [Links](<05 - Links.md>)
+6. [Images](<06 - Images.md>)
+7. [Blockquotes](<07 - Blockquotes.md>)
+8. [Code blocks](<08 - Code blocks.md>)
+9. [Tables](<09 - Tables.md>)
+10. [Horizontal rules](<10 - Horizontal rules.md>)
+11. [Escaping characters](<11 - Escaping characters.md>)
 
-## Compatibilidad
+## Compatibility
 
-Los ejemplos especiales se identifican con las siguientes etiquetas:
+Special examples use the following labels:
 
-- **Markdown básico:** sintaxis ampliamente compatible basada en CommonMark.
-- **GFM:** extensión de GitHub Flavored Markdown.
-- **GitHub:** característica admitida por GitHub y algunos otros renderizadores.
-- **HTML:** etiqueta HTML embebida; su funcionamiento depende de que el renderizador permita HTML.
+- **Basic Markdown:** Widely supported syntax based on CommonMark.
+- **GFM:** An extension of GitHub Flavored Markdown.
+- **GitHub:** A feature supported by GitHub and some other renderers.
+- **HTML:** An embedded HTML tag. It only works when the renderer allows HTML.
 
-En este repositorio, el tachado, las listas de tareas, las tablas y las URL escritas directamente se presentan como extensiones de GFM. Las notas al pie se identifican como una característica de GitHub, mientras que `<mark>` y `<br>` se señalan como HTML embebido.
+In this repository, strikethrough, task lists, tables, and plain URLs are presented as GFM extensions. Footnotes are identified as a GitHub feature, while `<mark>` and `<br>` are marked as embedded HTML.
 
-## Cómo visualizar los ejemplos
+## How to view the examples
 
-Puedes abrir los archivos directamente en GitHub para verlos renderizados. En un editor como Visual Studio Code, abre un archivo `.md` y utiliza la opción **Abrir vista previa** para comparar la sintaxis original con el resultado.
+You can open the files directly on GitHub to see the rendered output. In an editor such as Visual Studio Code, open a `.md` file and use the **Open Preview** option to compare the original syntax with the result.
