@@ -1,23 +1,27 @@
-Este es el primer párrafo. Puedes escribir todo lo que quieras en una sola línea.
+Presionar Enter una sola vez dentro de un párrafo no suele generar un salto de línea visible. Las siguientes dos líneas se interpretan como parte del mismo párrafo:
 
-Este es el segundo párrafo. La línea en blanco entre ambos es lo que los separa.
+Esta es la primera línea.
+Esta es la segunda línea.
 
-En Markdown presionar Enter una sola vez no suele generar un salto de línea visible. 
-Esas líneas se interpretan como parte del mismo párrafo.
+En cambio, una línea vacía separa el texto en dos párrafos:
 
-A diferencia de este que sí se observa un salto de línea cuando dejo un a línea vacía entre los textos.
+Esta es la primera línea.
 
-Si quiero hacer un salto de línea sin dejar una línea vacía, lo hago agregando dos espacios en blanco al final de la línea y luego presionando enter, así:
+Esta es la segunda línea.
+
+También se puede producir un salto de línea sin crear otro párrafo. Una opción consiste en agregar dos espacios al final de la primera línea:
 
 Esta es la primera línea.  
-Esta es la segunda.
+Esta es la segunda línea.
 
-Tambíen puedo hacerlo agregando `<br>` al final de la línea:
-
-Esta es la primera línea.<br>
-Esta es la segunda.
-
-Además también se puede hacer con `\`:
+Otra opción es terminar la primera línea con una barra invertida (`\`):
 
 Esta es la primera línea.\
-Esta es la segunda.
+Esta es la segunda línea.
+
+También se puede utilizar la etiqueta HTML `<br>`:
+
+> **Compatibilidad:** HTML embebido.
+
+Esta es la primera línea.<br>
+Esta es la segunda línea.

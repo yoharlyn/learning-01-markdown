@@ -1,25 +1,38 @@
-**Negrita** con doble asterisco
+Markdown permite destacar partes del texto mediante distintos caracteres.
 
-__Negrita__ con doble guión bajo
+## Formato básico
 
-*Cursiva* con un asterisco
+Dos asteriscos muestran el texto en **negrita**.
 
-_Cursiva_ con un guión bajo
+Dos guiones bajos también muestran el texto en __negrita__.
 
-***Negrita y cursiva*** con triple asterisco
+Un asterisco muestra el texto en *cursiva*.
 
-___Negrita y cursiva___ con triple guión bajo
+Un guion bajo también muestra el texto en _cursiva_.
 
-<mark>resaltado</mark> con la etiqueta mark
+Tres asteriscos muestran el texto en ***negrita y cursiva***.
 
-~~Tachado~~ con doble virgulilla
+Tres guiones bajos también muestran el texto en ___negrita y cursiva___.
 
-~~~
-Texto dentro de recuadro con triple virgulilla
-~~~ 
+## Texto resaltado
 
-`código inline` con backticks
+La etiqueta `<mark>` permite mostrar un texto <mark>resaltado</mark>.
+
+> **Compatibilidad:** HTML embebido. Puede no funcionar en renderizadores que bloqueen HTML.
+
+## Tachado
+
+Dos virgulillas muestran el texto ~~tachado~~.
+
+> **Compatibilidad:** extensión de GFM.
+
+## Notas al pie
+
+Las referencias `[^1]` permiten agregar notas al pie de un texto, como en el siguiente ejemplo:
 
 Markdown[^1] es un lenguaje de marcado ligero para dar formato[^2] a textos.
-[^1]: Texto nota 1
-[^2]: Texto nota 2
+
+[^1]: Texto de la nota 1.
+[^2]: Texto de la nota 2.
+
+> **Compatibilidad:** característica admitida por GitHub y algunos otros renderizadores; no pertenece al Markdown básico.
